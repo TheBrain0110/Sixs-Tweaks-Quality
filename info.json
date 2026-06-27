@@ -1,10 +1,10 @@
 {
   "name": "Sixs-Tweaks-Quality",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title": "Six's Quality Tweaks",
   "author": "TheBrain0110",
   "homepage": "https://github.com/TheBrain0110/Sixs-Tweaks-Quality",
   "description": "Making Quality Better",
-  "factorio_version": "2.0",
-  "dependencies": ["base >= 2.0.32", "space-age >= 2.0.32", "quality >= 2.0.32"]
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.8", "space-age >= 2.1.8", "quality >= 2.1.8", "recycler >= 2.1.8"]
 }

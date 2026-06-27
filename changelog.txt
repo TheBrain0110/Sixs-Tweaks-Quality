@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-06-27
+  Changes:
+    - Update for Factorio 2.1
+    - Scale values by 1/10 to match vanilla 2.1
+    - Remove next_probability patches
+    - Remove Quality modules from beacons
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2025-02-26
   Changes:
