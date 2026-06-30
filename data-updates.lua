@@ -14,6 +14,9 @@ data.raw.quality["legendary"].science_pack_drain_multiplier = 50/100
 data.raw.quality["legendary"].spoil_ticks_multiplier = 1 + data.raw.quality["legendary"].level * 2
 
 data.raw.furnace["recycler"].effect_receiver = {base_effect = { quality = 0.1 }}
+data.raw.furnace["recycler"].quality_affects_module_slots = true
 
 data.raw.lab["lab"].uses_quality_drain_modifier = true
+data.raw.lab["lab"].quality_affects_module_slots = true
 data.raw.lab["biolab"].uses_quality_drain_modifier = true
+data.raw.lab["biolab"].quality_affects_module_slots = true
