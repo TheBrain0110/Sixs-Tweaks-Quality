@@ -16,6 +16,11 @@ data.raw.quality["legendary"].spoil_ticks_multiplier = 1 + data.raw.quality["leg
 data.raw.furnace["recycler"].effect_receiver = {base_effect = { quality = 0.1 }}
 data.raw.furnace["recycler"].quality_affects_module_slots = true
 
+data.raw["agricultural-tower"]["agricultural-tower"].quality_affects_module_slots = true
+data.raw["agricultural-tower"]["agricultural-tower"].module_slots = 3
+data.raw["agricultural-tower"]["agricultural-tower"].allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"}
+
+
 data.raw.lab["lab"].uses_quality_drain_modifier = true
 data.raw.lab["lab"].quality_affects_module_slots = true
 data.raw.lab["biolab"].uses_quality_drain_modifier = true
