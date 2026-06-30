@@ -20,6 +20,18 @@ data.raw["agricultural-tower"]["agricultural-tower"].quality_affects_module_slot
 data.raw["agricultural-tower"]["agricultural-tower"].module_slots = 3
 data.raw["agricultural-tower"]["agricultural-tower"].allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"}
 
+data.raw["furnace"]["electric-furnace"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["assembling-machine-2"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["assembling-machine-3"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["oil-refinery"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["chemical-plant"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["centrifuge"].quality_affects_module_slots = true
+data.raw["rocket-silo"]["rocket-silo"].quality_affects_module_slots = true
+
+data.raw["assembling-machine"]["biochamber"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["foundry"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["electromagnetic-plant"].quality_affects_module_slots = true
+data.raw["assembling-machine"]["cryogenic-plant"].quality_affects_module_slots = true
 
 data.raw.lab["lab"].uses_quality_drain_modifier = true
 data.raw.lab["lab"].quality_affects_module_slots = true
